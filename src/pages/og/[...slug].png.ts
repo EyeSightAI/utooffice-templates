@@ -15,13 +15,17 @@ interface Props {
 
 function getPostCoverPath(entry: AllContent) {
   if (!entry.data.image) {
-    return '/default-listing-image.png';
+    return '';
   }
-  return entry.data.image.src;
+  const img = entry.data.image as unknown;
+  return typeof img === 'string' ? img : (img as { src?: string }).src || '';
 }
 
 function getPostCoverImage(entry: AllContent) {
   const imagePath = getPostCoverPath(entry);
+  if (!imagePath || imagePath.startsWith('http')) {
+    return ''; // 远程 URL 或无封面，跳过本地读取
+  }
   if (process.env.NODE_ENV === 'development') {
     return path.resolve(imagePath.replace(/\?.*/, '').replace('/@fs', ''));
   }
@@ -52,7 +56,8 @@ export async function GET({ params }: Props) {
   );
   let postCover;
   try {
-    postCover = fs.readFileSync(getPostCoverImage(entry));
+    const cover = getPostCoverImage(entry);
+    postCover = cover ? fs.readFileSync(cover) : null;
   } catch (error) {
     postCover = null;
   }
