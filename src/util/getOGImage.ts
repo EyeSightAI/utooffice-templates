@@ -9,6 +9,5 @@ function getBasePath(): string {
 }
 
 export function getOGImage(slug: string) {
-  let basePath: string = getBasePath();
-  return `${basePath}/og/${slug}.png`;
+  return '/favicon.svg'; // og 分享图：静态默认（已移除动态 og 生成）
 }
