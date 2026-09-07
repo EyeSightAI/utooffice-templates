@@ -60,6 +60,10 @@ name = "使用说明"
 href = "/guide"
 
 [[header.navbar.links]]
+name = "加入我们"
+href = "/affiliate"
+
+[[header.navbar.links]]
 name = "下载 UToOffice"
 href = "https://utooffice.com/download"
 
