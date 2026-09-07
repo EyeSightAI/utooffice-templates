@@ -147,7 +147,7 @@ colorModeSelector = true
 
 [[header.navbar.links]]
 name = "使用说明"
-href = "https://utooffice.com/guide"
+href = "/guide"
 
 [[header.navbar.links]]
 name = "下载 UToOffice"

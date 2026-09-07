@@ -8,31 +8,31 @@ const socialNames = Object.keys(config.footer.socials);
 
 const navigation = [
   {
-    title: "Directory",
+    title: "模板分类",
+    links: config.directoryData.tags
+      ?.filter((e) => e && e.name)
+      .slice(0, 4)
+      .map((e) => ({ title: e.name, link: `/tags/${e.key}` })),
+  },
+  {
+    title: "更多分类",
+    links: config.directoryData.tags
+      ?.filter((e) => e && e.name)
+      .slice(4, 8)
+      .map((e) => ({ title: e.name, link: `/tags/${e.key}` })),
+  },
+  {
+    title: "关于",
     links: [
-      { title: "Submit", link: "/submit" },
-      { title: "Advertise", link: "/advertise" },
+      { title: "使用说明", link: "/guide" },
+      { title: "下载 UToOffice", link: "https://utooffice.com/download" },
     ],
   },
   {
-    title: "Categories",
-    links: config.directoryData.tags
-      ?.filter((e) => e && e.name)
-      .map((e) => ({
-        title: e.name,
-        link: `/tags/${e.key}`,
-      }))
-      .slice(0, 4),
-  },
-  {
-    title: "Blog",
-    links: [{ title: "Articles", link: "/blog" }],
-  },
-  {
-    title: "Legal",
+    title: "法律",
     links: [
-      { title: "Privacy Policy", link: "/legal/terms-of-service" },
-      { title: "Terms of Service", link: "/legal/privacy-policy" },
+      { title: "隐私政策", link: "/legal/privacy-policy" },
+      { title: "服务条款", link: "/legal/terms-of-service" },
     ],
   },
 ];
@@ -114,8 +114,10 @@ const navigation = [
       class="mt-16 border-t border-gray-900/10 dark:border-gray-600 pt-8 sm:mt-20 lg:mt-24"
     >
       <p class="text-xs leading-5 text-gray-500">
-        &copy; {new Date().getFullYear()}
-        {config.general.title} All rights reserved.
+        &copy; {new Date().getFullYear()} {config.general.title} 版权所有。
+      </p>
+      <p class="mt-2 text-xs leading-5 text-gray-400">
+        模板素材来源 <a href="https://ppttemplate.ai" class="underline hover:text-gray-600" target="_blank" rel="noopener">ppttemplate.ai</a>，基于 <a href="https://creativecommons.org/licenses/by/4.0/" class="underline hover:text-gray-600" target="_blank" rel="noopener">CC BY 4.0</a> 许可。
       </p>
     </div>
   </div>

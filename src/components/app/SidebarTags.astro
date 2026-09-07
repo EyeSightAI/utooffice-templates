@@ -15,7 +15,7 @@ const emoji = themeConfig.layout.emoji;
       class="border border-gray-200 dark:border-gray-600 rounded h-7 w-7 inline-flex items-center justify-center"
       >{emoji && "🏠"}</span
     >
-    <span>Home</span>
+    <span>首页</span>
   </a>
   {
     tags.map((tag) => (
@@ -23,9 +23,6 @@ const emoji = themeConfig.layout.emoji;
         class="flex items-center text-sm font-medium text-gray-700 dark:text-gray-300 gap-2 px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700"
         href={`/tags/${tag.key}`}
       >
-        <span class="border border-gray-200 dark:border-gray-600 rounded h-7 w-7 inline-flex items-center justify-center">
-          {tag.emoji && tag.emoji}
-        </span>
         <span>{tag.name}</span>
       </a>
     ))
