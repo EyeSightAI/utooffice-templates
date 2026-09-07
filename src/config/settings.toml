@@ -23,118 +23,28 @@ title = "{0} 模板"
 placeholder = "搜索 {0} 套模板中的内容"
 
 [[directoryData.tags]]
-key = "education"
-name = "📚 教育培训"
-emoji = "📚"
-description = "教案、课堂活动、教学课件等教育类模板"
-
-[[directoryData.tags]]
-key = "business"
-name = "💼 商务办公"
-emoji = "💼"
-description = "公司介绍、战略汇报、商务报告等模板"
-
-[[directoryData.tags]]
-key = "data-and-charts"
-name = "📊 数据图表"
+key = "工作总结"
+name = "工作总结"
 emoji = "📊"
-description = "数据看板、可视化、信息图、图表模板"
+description = "年终总结、工作汇报、计划"
 
 [[directoryData.tags]]
-key = "general"
-name = "✨ 通用模板"
-emoji = "✨"
-description = "适用各种主题的通用模板"
+key = "述职报告"
+name = "述职报告"
+emoji = "🎤"
+description = "述职报告、转正汇报、晋升答辩"
 
 [[directoryData.tags]]
-key = "thesis-defense"
-name = "🎓 学术答辩"
-emoji = "🎓"
-description = "论文答辩、学术报告、研究汇报模板"
+key = "总结述职"
+name = "总结述职"
+emoji = "📝"
+description = "总结 + 述职综合模板"
 
 [[directoryData.tags]]
-key = "pitch-deck"
-name = "🚀 融资路演"
-emoji = "🚀"
-description = "创业融资、项目路演、产品发布模板"
-
-[[directoryData.tags]]
-key = "medical"
-name = "🏥 医疗健康"
-emoji = "🏥"
-description = "临床、健康、医疗教育模板"
-
-[[directoryData.tags]]
-key = "aesthetic-and-minimal"
-name = "🎨 简约美学"
-emoji = "🎨"
-description = "极简、美学、优雅风格模板"
-
-[[directoryData.tags]]
-key = "marketing"
-name = "📣 市场营销"
-emoji = "📣"
-description = "品牌、营销方案、社媒内容模板"
-
-[[directoryData.tags]]
-key = "project-management"
-name = "📅 项目管理"
-emoji = "📅"
-description = "路线图、时间线、会议纪要、计划模板"
-
-[[directoryData.tags]]
-key = "sales"
-name = "💰 销售推广"
-emoji = "💰"
-description = "销售赋能、渠道复盘、收入汇报模板"
-
-[[directoryData.tags]]
-key = "creative-and-portfolio"
-name = "🖼️ 创意作品集"
-emoji = "🖼️"
-description = "作品集、摄影、艺术、时尚模板"
-
-[[directoryData.tags]]
-key = "holidays-and-events"
-name = "🎉 节日活动"
-emoji = "🎉"
-description = "节日、庆典、活动策划模板"
-
-[[directoryData.tags]]
-key = "finance"
-name = "💹 金融财务"
-emoji = "💹"
-description = "预算、预测、财务汇报、投资模板"
-
-[[directoryData.tags]]
-key = "kids-and-fun"
-name = "🧸 儿童趣味"
-emoji = "🧸"
-description = "可爱、涂鸦、儿童友好风格模板"
-
-[[directoryData.tags]]
-key = "nature-and-environment"
-name = "🌿 自然环保"
-emoji = "🌿"
-description = "生态、环保、自然主题模板"
-
-[[directoryData.tags]]
-key = "documents-and-spreadsheets"
-name = "📄 文档表格"
+key = "详情页展示"
+name = "详情页展示"
 emoji = "📄"
-description = "文档、表格、清单类模板"
-
-[[directoryData.tags]]
-key = "technology"
-name = "💻 科技产品"
-emoji = "💻"
-description = "软件、产品、工程、AI 主题模板"
-
-[[directoryData.tags]]
-key = "food-and-travel"
-name = "✈️ 美食旅行"
-emoji = "✈️"
-description = "餐厅、美食、旅游、目的地模板"
+description = "详情页、展示页、内容页模板"
 
 [header.banner]
 show = false
