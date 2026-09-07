@@ -65,11 +65,11 @@ href = "/affiliate"
 
 [[header.navbar.links]]
 name = "下载 UToOffice"
-href = "https://utooffice.com/download"
+href = "https://github.com/EyeSightAI/genoffice/releases/latest/download/UToOffice-Setup.exe"
 
 [header.actionButton]
 text = "下载 UToOffice"
-href = "https://utooffice.com/download"
+href = "https://github.com/EyeSightAI/genoffice/releases/latest/download/UToOffice-Setup.exe"
 
 [footer]
 description = "UToOffice 模板库 — 600+ 精美 PPT 模板，一键套用。"
