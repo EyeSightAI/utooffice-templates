@@ -9,7 +9,7 @@ iconLogo = "tabler:presentation"
 
 [general.seo]
 name = "UToOffice 模板库"
-description = "600+ 精美 PPT 模板，一键套用到 UToOffice 生成专业演示文稿。"
+description = "UToOffice 可编辑 PPT 模板库。"
 url = "https://templates.utooffice.com"
 
 [directoryData.source]
