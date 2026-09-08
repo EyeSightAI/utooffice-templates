@@ -11,7 +11,7 @@ description: UToOffice 模板库使用说明
 
 ## 前提条件
 
-- 已安装 [UToOffice 桌面端](https://utooffice.com/download)
+- 已安装 [UToOffice 桌面端](https://github.com/EyeSightAI/genoffice/releases/latest/download/UToOffice-Setup.exe)
 - 下载模板需要 UToOffice 会员（免费可浏览全部模板）
 
 ## 会员说明
@@ -25,7 +25,16 @@ description: UToOffice 模板库使用说明
 请确认已安装最新版 UToOffice（需支持 `utooffice://` 协议）。
 
 **模板怎么「严格套用」？**
-在 UToOffice 的 AI 面板勾选「📄 使用当前模板」，AI 会严格保留当前模板的 logo 和版式，只整理填充你的内容。
+在 UToOffice 的 AI 面板勾选「📄 使用模板库」，AI 会严格保留当前模板的 logo 和版式，只整理填充你的内容。
 
 **模板可以商用吗？**
 可以。模板基于 CC BY 4.0 许可，允许个人和商业使用。
+
+**安装时被 Windows 拦截了？**
+UToOffice 安装包目前未做代码签名，Windows 11 的「智能应用控制」可能拦截安装。若提示「已保护你的电脑」，按以下步骤关闭：
+1. 打开「Windows 安全中心」（开始菜单搜索「安全」）
+2. 进入「应用和浏览器控制」→「基于声誉的保护设置」
+3. 找到「智能应用控制」，选择「关闭」
+4. 重新运行安装包即可
+
+> 后续我们会为安装包添加正式代码签名，届时无需此操作。
