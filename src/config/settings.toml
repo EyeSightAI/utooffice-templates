@@ -10,7 +10,7 @@ iconLogo = "tabler:presentation"
 [general.seo]
 name = "UToOffice 模板库"
 description = "UToOffice 可编辑 PPT 模板库。"
-url = "https://templates.utooffice.com"
+url = "https://templates.uto-office.cn"
 
 [directoryData.source]
 name = "json"    # default, mock, sheets, json
@@ -49,7 +49,7 @@ description = "详情页、展示页、内容页模板"
 [header.banner]
 show = false
 text = ""
-link = "https://utooffice.com"
+link = "https://uto-office.cn"
 brandText = "UToOffice"
 
 [header.navbar]
@@ -65,11 +65,11 @@ href = "/affiliate"
 
 [[header.navbar.links]]
 name = "下载 UToOffice"
-href = "http://47.109.16.117/update/UToOffice-Setup.exe"
+href = "https://uto-office.cn/#download"
 
 [header.actionButton]
 text = "下载 UToOffice"
-href = "http://47.109.16.117/update/UToOffice-Setup.exe"
+href = "https://uto-office.cn/#download"
 
 [footer]
 description = "UToOffice 模板库 — 600+ 精美 PPT 模板，一键套用。"

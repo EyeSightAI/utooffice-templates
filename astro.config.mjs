@@ -9,7 +9,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://templates.utooffice.com",
+  site: "https://templates.uto-office.cn",
   integrations: [
     vue(),
     mdx(),
